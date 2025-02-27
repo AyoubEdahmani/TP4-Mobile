@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_tp1"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="TP1" />
+        <item
+            android:id="@+id/nav_tp2"
+            android:icon="?android:attr/listChoiceIndicatorMultiple"
+            android:title="TP2" />
+        <item
+            android:id="@+id/nav_tp3"
+            android:icon="@android:drawable/stat_sys_phone_call_on_hold"
+            android:title="TP3" />
+
+
+    </group>
+</menu>
